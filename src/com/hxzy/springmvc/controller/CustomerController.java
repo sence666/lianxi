@@ -48,6 +48,7 @@ public class CustomerController {
 	@ResponseBody
 	public Customer edit(Integer id) {
 		 Customer c=customerService.getCustomerById(id);
+		 System.out.println("45661");
 		 return c;
 		
 	}
