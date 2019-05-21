@@ -49,6 +49,7 @@ public class CustomerController {
 	public Customer edit(Integer id) {
 		 Customer c=customerService.getCustomerById(id);
 		 System.out.println("45661");
+		 System.out.println("569872");
 		 return c;
 		
 	}
